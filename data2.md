@@ -724,4 +724,6 @@ Add the capability to update a pet’s information.
 Add the ability to delete a pet.
 Subscribe to update and delete mutations.
 
+If you want to add this project to a DevOps Pipelines, [click here](./cicd.md)
+
 If you want to know more abour AWS Amplify visit the [SITE](https://aws-amplify.github.io/docs/)
