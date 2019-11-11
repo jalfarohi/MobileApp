@@ -6,7 +6,7 @@ In the following module we will use several tools to automate the code commit, t
 
 ![Import on the fly](images/CICD.png)
 
-Download the following ZIP file and create a new folder inside your Android App. Unzip all the files inside and access the folder with the Terminal.
+Download the following [ZIP](./ConfigFiles.zip)  file and create a new folder inside your Android App. Unzip all the files inside and access the folder with the Terminal.
 
 As pre-step, we will run the following command to create roles using AWS CloudFormation. This is good way to create resources on AWS as code in future cases the whole pipeline could be created using this service but for teaching porpouse we will do step by step.
 On the Android Studio Terminal section copy the following code
