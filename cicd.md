@@ -124,22 +124,7 @@ Copy the device pool ARN, the value is below the **name** into a notepad.
 
 On Services type ***pipe*** and select ***CodePipeline***
 
-1. Our Pipeline should be at the list, click on the name
-2. Choose **Edit** at the top of your existing pipeline
-3. Click on **Add Stage**  in your pipeline and name your stage
-4. Choose **Add action group** on this new stage. This opens a new window on the right half of the console.
-5. In the new action window, for Action Category, choose Test.
-6. Enter an Action name: (for example, TestOnRealDevices).
-7. Test Provider, choose AWS Device Farm.
-8. Region, select US West (Oregon)
-9. Input artifact, select the name of CodeBuild stage
-10. Project Id, type the name that you used on AWS Device Farm
-11. DevicePoolArn: copy the value we got on the previous section.
-12. AppType: enter Android
-13. App : enter the location of the .APK file: ***FALTA***
-14. TestType: INSTRUMENTATION
-15. Test: type the path of the Expresso Tests
-16. Scroll down and click on ***Done***
+* Our Pipeline should be at the list, click on the name, and validate all data is correct.
 
 To test out the new pipeline, we need to configure git within your Cloud9 IDE and integrate it with your CodeCommit repository.
 
