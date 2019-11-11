@@ -30,6 +30,8 @@ As a developer you could beging with a small application and start growing it ad
 
 ![Application Architecture](images/DiagramaWorkshop.png)
 
+Lets start: [Add Login](./login.md) into your project.
+
 
 ## **AWS Developer Center**
 
